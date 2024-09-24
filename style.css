@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: rgb(39, 38, 38);
+}
+
+header{
+  width: 100%;
+}
+
+#principal {
+  width: 1400px;
+  height: 560px;
+  margin: 200px auto 0;
+}
+
+#capa {
+  position: absolute;
+  width: 1400px;
+  height: 560px;
+}
+
+#logo {
+  margin: 50px;
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+}
+
+img {
+  background-color: transparent;
+}
+
+#titulo {
+  color: antiquewhite;
+  position: absolute;
+  width: 536px;
+  height: 102px;
+  margin: 185px 0 0 172px;
+  background-color: transparent;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 51.4px;
+}
+
+#paragrafo {
+  color: antiquewhite;
+  position: absolute;
+  width: 536px;
+  height: 90px;
+  margin: 319px 0 0 172px;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+#informativo {
+  width: 1400px;
+  height: 170px;
+  background: #EAECE5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  margin: 0 auto;
+}
+
+.icone {
+  color: #000008;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 50px 0 50px 100px;
+}
+.texto_informativo {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 20px;
+}
+
+#secaoVideo {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  background-color: #ffffff;
+  width: 1400px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+#div-Video-texto {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#titulo-do-video {
+  margin-bottom: 30px;
+  width: 650px;
+  color: #247BA0;
+}
+
+#paragrafo-video {
+  width: 600px;
+}
+
+#video {
+  margin: 50px 25px 50px 100px;
+}
+
+#carrocel {
+  width: 1400px;
+  height: 444px;
+  background: #247ba0;
+  margin: 0 auto;
+}
+
+#tituloCarrocel {
+  color: wheat;
+  text-align: center;
+  padding: 50px;
+}
+
+#div-cards {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+}
+
+.card {
+  margin-left: 40px;
+}
+
+#seta-esquerda {
+  display: none;
+}
+
+#samantha {
+  display: none;
+}
+
+.seta {
+  margin-top: 40%;
+  cursor: pointer;
+}
+
+.seta:hover {
+  transform: translateY(-7px);
+  transition-duration: 0.5s;
+}
+
+.seta:active {
+  opacity: 0.6;
+}
+
+#formulario {
+  width: 1400px;
+  height: 500px;
+  background-color: #ffffff;
+  margin: 0 auto 50px;
+}
+
+#componente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+#tituloFormulario{
+text-align: center;
+padding-top: 40px;
+}
+
+input {
+  width: 413px;
+  height: 53px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #eaece5;
+}
+
+button {
+  width: 335px;
+  height: 53px;
+  background: #247BA0;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+
+}
+
+button:hover{
+  transform: translateY(-4px);
+  background-color: #46b5e5;
+  color: white;
+  box-shadow: 0 15px 20px #11202580;;
+}
+
+button:active{
+  opacity: 0.5;
+}

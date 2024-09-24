@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>project</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <!--Menu Superior-->
+      <main id="principal">
+        <a href="https://www.escoladnc.com.br/"
+        ><img src="./img/image 14.png" id="logo" alt=""/></a>
+
+        <img src="./img/unsplash__dJCBtdUu74.png" id="capa" alt="" />
+
+        <h1 id="titulo">
+          Dê os primeiros passos da sua carreira em Tecnologia
+        </h1>
+        <p id="paragrafo">
+          Inscreva-se no curso gratuito de Introdução à Tecnologia da DNC School
+          e aprenda os principais fundamentos para construir experiências
+          efetivas.</p>
+      </main>
+      <!--Menu Informacional-->
+      <nav id="informativo">
+        <p class="texto_informativo" ><img src="./icones/certificados.png" class="icone" alt="" />Certificado de conclusão</p>
+        <p class="texto_informativo"><img src="./icones/ic_baseline-access-time.png" class="icone" alt="" />4 horas de conteúdo</p>
+        <p class="texto_informativo"><img src="./icones/bx_camera-movie.png" class="icone" alt="" />Aulas online gravadas</p>
+      </nav>
+      <!--Seção Video-->
+      <div id="secaoVideo">
+        <iframe id="video" width="534" height="300" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <div id="div-Video-texto">
+          <h1 id="titulo-do-video">Aprenda com especialistas e comece seu primeiro projeto</h1>
+            <p id="paragrafo-video">Conheça o processo de desenvolvimento e entenda como utilizar <br>
+         os principais métodos e ferramentas da área para resolver problemas complexos.<br><br>
+          Conquiste seu certificado e desenvolva um projeto prático para aplicar seus conhecimentos.</p>
+        </div>
+      </div>
+      <!--Carrocel-->
+      <section id="carrocel">
+
+       <h1 id="tituloCarrocel">Mais de 500 alunos já iniciaram seus estudos</h1>
+
+        <div id="div-cards">
+          <img id="seta-esquerda" class="seta" onclick="rolarParaEsquerda()" src="./seta/seta-esquerda.png" alt="">
+          <img id="leonardo" class="card" src="./cards/Leonardo.png" alt="">
+          <img id="bruna" class="card"src="./cards/Bruna.png" alt="">
+          <img id="samantha" class="card"src="./cards/Samantha.png" alt="">
+          <img id="seta-direita" class="seta" onclick="rolarParaDireita()" src="./seta/seta-direita.png" alt="">
+        </div>
+
+      </section>
+      <!--Formulário-->
+      <div id="formulario">
+        <h1 id="tituloFormulario">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        
+        <form id="componente" action="https://api.sheetmonkey.io/form/duZL8wdJEV9277Cuh9igqU" method="POST" >
+        <input type="text" placeholder="nome" name="Name" required>
+        <input type="text" placeholder="E-mail" name="Email" required>
+        <input type="text" placeholder="telefone" name="Phone" required>
+
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button type="submit">Receber acesso grátis</button>
+        </form>
+
+      </div>
+
+    </header>
+
+    <script src="./funcionar.js"></script>
+  </body>
+</html>
